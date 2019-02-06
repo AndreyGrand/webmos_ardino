@@ -1,0 +1,5 @@
+
+Set gpio
+curl -X POST "http://192.168.1.225/board" -d "gpio=2&state=0"
+Get state gpio
+curl "http://192.168.1.225/board?gpio=2"

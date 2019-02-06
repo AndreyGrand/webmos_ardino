@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My arduino project</title>
+</head>
+<body>
+<form action="./" id="gpio_get" method="get">
+    <div>
+        GPIO <input name="gpio" type="text" value=""/>
+    </div>
+    <input type="submit" value="GET">
+</form>
+<form action="./" id="gpio_post" method="post">
+    <div>
+        GPIO <input name="gpio" type="text" value=""/>
+    </div>
+    <div>
+        VALUE <br/>
+        <input type="radio" name="state" value="0" checked="checked"/>0<br/>
+         <input type="radio" name="state" value="1"/>1<br/>
+    </div>
+    <input type="submit" value="POST">
+</form>
+</body>
+</html>
